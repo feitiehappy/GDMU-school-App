@@ -1,0 +1,573 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6F35AC391D00437E00E2D298 /* School.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F35AC381D00437E00E2D298 /* School.m */; };
+		6F35AC3F1D004FF900E2D298 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F35AC3E1D004FF900E2D298 /* LoginViewController.m */; };
+		6F5815401CFF178800967CD4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F58153F1CFF178800967CD4 /* main.m */; };
+		6F5815431CFF178800967CD4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F5815421CFF178800967CD4 /* AppDelegate.m */; };
+		6F5815461CFF178800967CD4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F5815451CFF178800967CD4 /* ViewController.m */; };
+		6F5815491CFF178800967CD4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F5815471CFF178800967CD4 /* Main.storyboard */; };
+		6F58154B1CFF178800967CD4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6F58154A1CFF178800967CD4 /* Assets.xcassets */; };
+		6F58154E1CFF178800967CD4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F58154C1CFF178800967CD4 /* LaunchScreen.storyboard */; };
+		6F5815591CFF178800967CD4 /* _____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F5815581CFF178800967CD4 /* _____Tests.m */; };
+		6F5815641CFF178800967CD4 /* _____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F5815631CFF178800967CD4 /* _____UITests.m */; };
+		6F5815731CFF1EF700967CD4 /* NewsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F5815721CFF1EF700967CD4 /* NewsViewController.m */; };
+		6F5815791CFF201800967CD4 /* SchoolViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F5815781CFF201800967CD4 /* SchoolViewController.m */; };
+		6F58157C1CFF208400967CD4 /* OnlineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F58157B1CFF208400967CD4 /* OnlineViewController.m */; };
+		6F58157F1CFF2CD900967CD4 /* LoginView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F58157D1CFF2CD900967CD4 /* LoginView.storyboard */; };
+		6F5815821CFF31DC00967CD4 /* MeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F5815811CFF31DC00967CD4 /* MeViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6F5815551CFF178800967CD4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6F5815331CFF178700967CD4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6F58153A1CFF178700967CD4;
+			remoteInfo = "广医校园通";
+		};
+		6F5815601CFF178800967CD4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6F5815331CFF178700967CD4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6F58153A1CFF178700967CD4;
+			remoteInfo = "广医校园通";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6F35AC371D00437E00E2D298 /* School.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = School.h; path = Control/School.h; sourceTree = "<group>"; };
+		6F35AC381D00437E00E2D298 /* School.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = School.m; path = Control/School.m; sourceTree = "<group>"; };
+		6F35AC3D1D004FF900E2D298 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LoginViewController.h; path = Control/LoginViewController.h; sourceTree = "<group>"; };
+		6F35AC3E1D004FF900E2D298 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LoginViewController.m; path = Control/LoginViewController.m; sourceTree = "<group>"; };
+		6F58153B1CFF178700967CD4 /* 广医校园通.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "广医校园通.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F58153F1CFF178800967CD4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6F5815411CFF178800967CD4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6F5815421CFF178800967CD4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6F5815441CFF178800967CD4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		6F5815451CFF178800967CD4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		6F5815481CFF178800967CD4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6F58154A1CFF178800967CD4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6F58154D1CFF178800967CD4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6F58154F1CFF178800967CD4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6F5815541CFF178800967CD4 /* 广医校园通Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "广医校园通Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F5815581CFF178800967CD4 /* _____Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_____Tests.m"; sourceTree = "<group>"; };
+		6F58155A1CFF178800967CD4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6F58155F1CFF178800967CD4 /* 广医校园通UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "广医校园通UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F5815631CFF178800967CD4 /* _____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_____UITests.m"; sourceTree = "<group>"; };
+		6F5815651CFF178800967CD4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6F5815711CFF1EF700967CD4 /* NewsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NewsViewController.h; path = Control/NewsViewController.h; sourceTree = "<group>"; };
+		6F5815721CFF1EF700967CD4 /* NewsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NewsViewController.m; path = Control/NewsViewController.m; sourceTree = "<group>"; };
+		6F5815771CFF201800967CD4 /* SchoolViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SchoolViewController.h; path = Control/SchoolViewController.h; sourceTree = "<group>"; };
+		6F5815781CFF201800967CD4 /* SchoolViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SchoolViewController.m; path = Control/SchoolViewController.m; sourceTree = "<group>"; };
+		6F58157A1CFF208400967CD4 /* OnlineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OnlineViewController.h; path = Control/OnlineViewController.h; sourceTree = "<group>"; };
+		6F58157B1CFF208400967CD4 /* OnlineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OnlineViewController.m; path = Control/OnlineViewController.m; sourceTree = "<group>"; };
+		6F58157E1CFF2CD900967CD4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LoginView.storyboard; sourceTree = "<group>"; };
+		6F5815801CFF31DC00967CD4 /* MeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MeViewController.h; path = Control/MeViewController.h; sourceTree = "<group>"; };
+		6F5815811CFF31DC00967CD4 /* MeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MeViewController.m; path = Control/MeViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6F5815381CFF178700967CD4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F5815511CFF178800967CD4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F58155C1CFF178800967CD4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6F5815321CFF178700967CD4 = {
+			isa = PBXGroup;
+			children = (
+				6F58153D1CFF178700967CD4 /* 广医校园通 */,
+				6F5815571CFF178800967CD4 /* 广医校园通Tests */,
+				6F5815621CFF178800967CD4 /* 广医校园通UITests */,
+				6F58153C1CFF178700967CD4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6F58153C1CFF178700967CD4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6F58153B1CFF178700967CD4 /* 广医校园通.app */,
+				6F5815541CFF178800967CD4 /* 广医校园通Tests.xctest */,
+				6F58155F1CFF178800967CD4 /* 广医校园通UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6F58153D1CFF178700967CD4 /* 广医校园通 */ = {
+			isa = PBXGroup;
+			children = (
+				6F5815471CFF178800967CD4 /* Main.storyboard */,
+				6F35AC371D00437E00E2D298 /* School.h */,
+				6F35AC381D00437E00E2D298 /* School.m */,
+				6F58157D1CFF2CD900967CD4 /* LoginView.storyboard */,
+				6F35AC3D1D004FF900E2D298 /* LoginViewController.h */,
+				6F35AC3E1D004FF900E2D298 /* LoginViewController.m */,
+				6F5815411CFF178800967CD4 /* AppDelegate.h */,
+				6F5815421CFF178800967CD4 /* AppDelegate.m */,
+				6F5815441CFF178800967CD4 /* ViewController.h */,
+				6F5815451CFF178800967CD4 /* ViewController.m */,
+				6F5815801CFF31DC00967CD4 /* MeViewController.h */,
+				6F5815811CFF31DC00967CD4 /* MeViewController.m */,
+				6F58157A1CFF208400967CD4 /* OnlineViewController.h */,
+				6F58157B1CFF208400967CD4 /* OnlineViewController.m */,
+				6F5815711CFF1EF700967CD4 /* NewsViewController.h */,
+				6F5815721CFF1EF700967CD4 /* NewsViewController.m */,
+				6F5815771CFF201800967CD4 /* SchoolViewController.h */,
+				6F5815781CFF201800967CD4 /* SchoolViewController.m */,
+				6F58154A1CFF178800967CD4 /* Assets.xcassets */,
+				6F58154C1CFF178800967CD4 /* LaunchScreen.storyboard */,
+				6F58154F1CFF178800967CD4 /* Info.plist */,
+				6F58153E1CFF178700967CD4 /* Supporting Files */,
+			);
+			path = "广医校园通";
+			sourceTree = "<group>";
+		};
+		6F58153E1CFF178700967CD4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6F58153F1CFF178800967CD4 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6F5815571CFF178800967CD4 /* 广医校园通Tests */ = {
+			isa = PBXGroup;
+			children = (
+				6F5815581CFF178800967CD4 /* _____Tests.m */,
+				6F58155A1CFF178800967CD4 /* Info.plist */,
+			);
+			path = "广医校园通Tests";
+			sourceTree = "<group>";
+		};
+		6F5815621CFF178800967CD4 /* 广医校园通UITests */ = {
+			isa = PBXGroup;
+			children = (
+				6F5815631CFF178800967CD4 /* _____UITests.m */,
+				6F5815651CFF178800967CD4 /* Info.plist */,
+			);
+			path = "广医校园通UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6F58153A1CFF178700967CD4 /* 广医校园通 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6F5815681CFF178800967CD4 /* Build configuration list for PBXNativeTarget "广医校园通" */;
+			buildPhases = (
+				6F5815371CFF178700967CD4 /* Sources */,
+				6F5815381CFF178700967CD4 /* Frameworks */,
+				6F5815391CFF178700967CD4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "广医校园通";
+			productName = "广医校园通";
+			productReference = 6F58153B1CFF178700967CD4 /* 广医校园通.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6F5815531CFF178800967CD4 /* 广医校园通Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6F58156B1CFF178800967CD4 /* Build configuration list for PBXNativeTarget "广医校园通Tests" */;
+			buildPhases = (
+				6F5815501CFF178800967CD4 /* Sources */,
+				6F5815511CFF178800967CD4 /* Frameworks */,
+				6F5815521CFF178800967CD4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6F5815561CFF178800967CD4 /* PBXTargetDependency */,
+			);
+			name = "广医校园通Tests";
+			productName = "广医校园通Tests";
+			productReference = 6F5815541CFF178800967CD4 /* 广医校园通Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6F58155E1CFF178800967CD4 /* 广医校园通UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6F58156E1CFF178800967CD4 /* Build configuration list for PBXNativeTarget "广医校园通UITests" */;
+			buildPhases = (
+				6F58155B1CFF178800967CD4 /* Sources */,
+				6F58155C1CFF178800967CD4 /* Frameworks */,
+				6F58155D1CFF178800967CD4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6F5815611CFF178800967CD4 /* PBXTargetDependency */,
+			);
+			name = "广医校园通UITests";
+			productName = "广医校园通UITests";
+			productReference = 6F58155F1CFF178800967CD4 /* 广医校园通UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6F5815331CFF178700967CD4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Y;
+				TargetAttributes = {
+					6F58153A1CFF178700967CD4 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = S787C3GA7W;
+					};
+					6F5815531CFF178800967CD4 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 6F58153A1CFF178700967CD4;
+					};
+					6F58155E1CFF178800967CD4 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 6F58153A1CFF178700967CD4;
+					};
+				};
+			};
+			buildConfigurationList = 6F5815361CFF178700967CD4 /* Build configuration list for PBXProject "广医校园通" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6F5815321CFF178700967CD4;
+			productRefGroup = 6F58153C1CFF178700967CD4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6F58153A1CFF178700967CD4 /* 广医校园通 */,
+				6F5815531CFF178800967CD4 /* 广医校园通Tests */,
+				6F58155E1CFF178800967CD4 /* 广医校园通UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6F5815391CFF178700967CD4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F58154E1CFF178800967CD4 /* LaunchScreen.storyboard in Resources */,
+				6F58154B1CFF178800967CD4 /* Assets.xcassets in Resources */,
+				6F5815491CFF178800967CD4 /* Main.storyboard in Resources */,
+				6F58157F1CFF2CD900967CD4 /* LoginView.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F5815521CFF178800967CD4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F58155D1CFF178800967CD4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6F5815371CFF178700967CD4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F5815461CFF178800967CD4 /* ViewController.m in Sources */,
+				6F58157C1CFF208400967CD4 /* OnlineViewController.m in Sources */,
+				6F5815821CFF31DC00967CD4 /* MeViewController.m in Sources */,
+				6F35AC3F1D004FF900E2D298 /* LoginViewController.m in Sources */,
+				6F35AC391D00437E00E2D298 /* School.m in Sources */,
+				6F5815431CFF178800967CD4 /* AppDelegate.m in Sources */,
+				6F5815401CFF178800967CD4 /* main.m in Sources */,
+				6F5815791CFF201800967CD4 /* SchoolViewController.m in Sources */,
+				6F5815731CFF1EF700967CD4 /* NewsViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F5815501CFF178800967CD4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F5815591CFF178800967CD4 /* _____Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F58155B1CFF178800967CD4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F5815641CFF178800967CD4 /* _____UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6F5815561CFF178800967CD4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6F58153A1CFF178700967CD4 /* 广医校园通 */;
+			targetProxy = 6F5815551CFF178800967CD4 /* PBXContainerItemProxy */;
+		};
+		6F5815611CFF178800967CD4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6F58153A1CFF178700967CD4 /* 广医校园通 */;
+			targetProxy = 6F5815601CFF178800967CD4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6F5815471CFF178800967CD4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6F5815481CFF178800967CD4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6F58154C1CFF178800967CD4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6F58154D1CFF178800967CD4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		6F58157D1CFF2CD900967CD4 /* LoginView.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6F58157E1CFF2CD900967CD4 /* Base */,
+			);
+			name = LoginView.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6F5815661CFF178800967CD4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6F5815671CFF178800967CD4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6F5815691CFF178800967CD4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = "广医校园通/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-63.com-feitiehappy.-----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6F58156A1CFF178800967CD4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = "广医校园通/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-63.com-feitiehappy.-----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		6F58156C1CFF178800967CD4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "广医校园通Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-63.com-feitiehappy.-----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/广医校园通.app/广医校园通";
+			};
+			name = Debug;
+		};
+		6F58156D1CFF178800967CD4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "广医校园通Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-63.com-feitiehappy.-----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/广医校园通.app/广医校园通";
+			};
+			name = Release;
+		};
+		6F58156F1CFF178800967CD4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "广医校园通UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-63.com-feitiehappy.-----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "广医校园通";
+			};
+			name = Debug;
+		};
+		6F5815701CFF178800967CD4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "广医校园通UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-63.com-feitiehappy.-----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "广医校园通";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6F5815361CFF178700967CD4 /* Build configuration list for PBXProject "广医校园通" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F5815661CFF178800967CD4 /* Debug */,
+				6F5815671CFF178800967CD4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6F5815681CFF178800967CD4 /* Build configuration list for PBXNativeTarget "广医校园通" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F5815691CFF178800967CD4 /* Debug */,
+				6F58156A1CFF178800967CD4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6F58156B1CFF178800967CD4 /* Build configuration list for PBXNativeTarget "广医校园通Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F58156C1CFF178800967CD4 /* Debug */,
+				6F58156D1CFF178800967CD4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6F58156E1CFF178800967CD4 /* Build configuration list for PBXNativeTarget "广医校园通UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F58156F1CFF178800967CD4 /* Debug */,
+				6F5815701CFF178800967CD4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6F5815331CFF178700967CD4 /* Project object */;
+}
