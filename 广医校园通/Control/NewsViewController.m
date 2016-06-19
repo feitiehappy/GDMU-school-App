@@ -8,7 +8,7 @@
 
 #import "NewsViewController.h"
 
-@interface NewsViewController ()<UIScrollViewDelegate>
+@interface NewsViewController ()<UIScrollViewDelegate,UITableViewDelegate,UITableViewDataSource>
 @property (weak, nonatomic) IBOutlet UINavigationItem *navbar;
 
 
@@ -17,37 +17,47 @@
 @property (weak, nonatomic) IBOutlet UIPageControl *PageControl;
 @property (strong,nonatomic)NSTimer *time;
 @property (nonatomic,weak) NSArray *picture;
+-(void)LoadScrollView;
 @end
 
 @implementation NewsViewController
--(NSArray*)picture
-{
-    NSArray *array=@[@"IMG_6359",@"IMG_6360",@"IMG_6361",@"IMG_6362",@"IMG_6364"];
-    _picture= array;
-    return _picture;
-}
--(void)scrollViewDidScroll:(UIScrollView *)scrollView
-{
-    CGFloat offSetX=scrollView.contentOffset.x;
-    offSetX=offSetX+(self.ScrollViewHorizenal.frame.size.width*0.5);
-    int page=offSetX/self.ScrollViewHorizenal.frame.size.width;
-    self.PageControl.currentPage=page;
-}
--(void)scrollViewWillBeginDragging:(UIScrollView *)scrollView
-{
-    [self.time invalidate];
-    self.time=nil;
-}
--(void)scrollViewWillEndDragging:(UIScrollView *)scrollView withVelocity:(CGPoint)velocity targetContentOffset:(inout CGPoint *)targetContentOffset
-{
-    self.time=[NSTimer scheduledTimerWithTimeInterval:2 target:self selector:@selector(scoll) userInfo:nil repeats:YES];
-    NSRunLoop *loop=[NSRunLoop currentRunLoop];
-    [loop addTimer:self.time forMode:NSRunLoopCommonModes];
-}
+
 - (void)viewDidLoad {
     [super viewDidLoad];
+    [self LoadScrollView];
+    
+    
+    
+    
+}
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
+{
+    return 5;
+}
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    static NSString *ID=@"NewsBody";
+    
+    UITableViewCell *cell=[tableView dequeueReusableCellWithIdentifier:ID];
+    if (cell==nil) {
+       cell= [[[NSBundle mainBundle]loadNibNamed:@"NewsCell" owner:nil options:nil]lastObject];
+    }
+    
+    
+    
+    
+    return cell;
+}
+- (void)didReceiveMemoryWarning {
+    [super didReceiveMemoryWarning];
+    // Dispose of any resources that can be recreated.
+}
+-(void)LoadScrollView
+{
+    [self.view bringSubviewToFront:_ScrollViewVertial];
+    [self.view bringSubviewToFront:_ScrollViewHorizenal];
     self.navigationController.navigationBarHidden=YES;
-//    NSLog(@"hisfhi");
+    //    NSLog(@"hisfhi");
     CGFloat weight=self.ScrollViewHorizenal.frame.size.width;
     CGFloat height=self.ScrollViewHorizenal.frame.size.height;
     CGFloat Y=self.ScrollViewHorizenal.frame.origin.y;
@@ -72,14 +82,9 @@
     [loop addTimer:self.time forMode:NSRunLoopCommonModes];
     // Do any additional setup after loading the view.
 }
-
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
-}
 -(void)scoll
 {
-    NSLog(@"101");
+//    NSLog(@"101");
     NSInteger pages=self.PageControl.currentPage;
     if (pages==self.PageControl.numberOfPages-1) {
         pages=0;
@@ -90,6 +95,30 @@
     CGFloat offsetX=pages*self.ScrollViewHorizenal.frame.size.width;
     [self.ScrollViewHorizenal setContentOffset:CGPointMake(offsetX, 0) animated:YES];
     
+}
+-(NSArray*)picture
+{
+    NSArray *array=@[@"IMG_6359",@"IMG_6360",@"IMG_6361",@"IMG_6362",@"IMG_6364"];
+    _picture= array;
+    return _picture;
+}
+-(void)scrollViewDidScroll:(UIScrollView *)scrollView
+{
+    CGFloat offSetX=scrollView.contentOffset.x;
+    offSetX=offSetX+(self.ScrollViewHorizenal.frame.size.width*0.5);
+    int page=offSetX/self.ScrollViewHorizenal.frame.size.width;
+    self.PageControl.currentPage=page;
+}
+-(void)scrollViewWillBeginDragging:(UIScrollView *)scrollView
+{
+    [self.time invalidate];
+    self.time=nil;
+}
+-(void)scrollViewWillEndDragging:(UIScrollView *)scrollView withVelocity:(CGPoint)velocity targetContentOffset:(inout CGPoint *)targetContentOffset
+{
+    self.time=[NSTimer scheduledTimerWithTimeInterval:2 target:self selector:@selector(scoll) userInfo:nil repeats:YES];
+    NSRunLoop *loop=[NSRunLoop currentRunLoop];
+    [loop addTimer:self.time forMode:NSRunLoopCommonModes];
 }
 /*
 #pragma mark - Navigation

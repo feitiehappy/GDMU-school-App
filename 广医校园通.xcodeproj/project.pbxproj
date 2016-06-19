@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		6F35AC391D00437E00E2D298 /* School.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F35AC381D00437E00E2D298 /* School.m */; };
+		40450C18436A6A47CD966A9F /* libPods-广医校园通.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B6A4557D1AF768720981ED2E /* libPods-广医校园通.a */; };
 		6F35AC3F1D004FF900E2D298 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F35AC3E1D004FF900E2D298 /* LoginViewController.m */; };
 		6F5815401CFF178800967CD4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F58153F1CFF178800967CD4 /* main.m */; };
 		6F5815431CFF178800967CD4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F5815421CFF178800967CD4 /* AppDelegate.m */; };
@@ -19,9 +19,11 @@
 		6F5815641CFF178800967CD4 /* _____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F5815631CFF178800967CD4 /* _____UITests.m */; };
 		6F5815731CFF1EF700967CD4 /* NewsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F5815721CFF1EF700967CD4 /* NewsViewController.m */; };
 		6F5815791CFF201800967CD4 /* SchoolViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F5815781CFF201800967CD4 /* SchoolViewController.m */; };
-		6F58157C1CFF208400967CD4 /* OnlineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F58157B1CFF208400967CD4 /* OnlineViewController.m */; };
 		6F58157F1CFF2CD900967CD4 /* LoginView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F58157D1CFF2CD900967CD4 /* LoginView.storyboard */; };
 		6F5815821CFF31DC00967CD4 /* MeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F5815811CFF31DC00967CD4 /* MeViewController.m */; };
+		6FFD223A1D162383003B2419 /* RESideMenuControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FFD22391D162383003B2419 /* RESideMenuControl.m */; };
+		6FFD22401D162803003B2419 /* NewsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6FFD223F1D162803003B2419 /* NewsCell.xib */; };
+		6FFD22431D16293A003B2419 /* NewsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FFD22421D16293A003B2419 /* NewsCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,8 +44,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		6F35AC371D00437E00E2D298 /* School.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = School.h; path = Control/School.h; sourceTree = "<group>"; };
-		6F35AC381D00437E00E2D298 /* School.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = School.m; path = Control/School.m; sourceTree = "<group>"; };
 		6F35AC3D1D004FF900E2D298 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LoginViewController.h; path = Control/LoginViewController.h; sourceTree = "<group>"; };
 		6F35AC3E1D004FF900E2D298 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LoginViewController.m; path = Control/LoginViewController.m; sourceTree = "<group>"; };
 		6F58153B1CFF178700967CD4 /* 广医校园通.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "广医校园通.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -66,11 +66,17 @@
 		6F5815721CFF1EF700967CD4 /* NewsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NewsViewController.m; path = Control/NewsViewController.m; sourceTree = "<group>"; };
 		6F5815771CFF201800967CD4 /* SchoolViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SchoolViewController.h; path = Control/SchoolViewController.h; sourceTree = "<group>"; };
 		6F5815781CFF201800967CD4 /* SchoolViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SchoolViewController.m; path = Control/SchoolViewController.m; sourceTree = "<group>"; };
-		6F58157A1CFF208400967CD4 /* OnlineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OnlineViewController.h; path = Control/OnlineViewController.h; sourceTree = "<group>"; };
-		6F58157B1CFF208400967CD4 /* OnlineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OnlineViewController.m; path = Control/OnlineViewController.m; sourceTree = "<group>"; };
 		6F58157E1CFF2CD900967CD4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LoginView.storyboard; sourceTree = "<group>"; };
 		6F5815801CFF31DC00967CD4 /* MeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MeViewController.h; path = Control/MeViewController.h; sourceTree = "<group>"; };
 		6F5815811CFF31DC00967CD4 /* MeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MeViewController.m; path = Control/MeViewController.m; sourceTree = "<group>"; };
+		6FFD22381D162383003B2419 /* RESideMenuControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RESideMenuControl.h; path = Control/RESideMenuControl.h; sourceTree = "<group>"; };
+		6FFD22391D162383003B2419 /* RESideMenuControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RESideMenuControl.m; path = Control/RESideMenuControl.m; sourceTree = "<group>"; };
+		6FFD223F1D162803003B2419 /* NewsCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = NewsCell.xib; path = View/NewsCell.xib; sourceTree = "<group>"; };
+		6FFD22411D16293A003B2419 /* NewsCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NewsCell.h; path = Control/NewsCell.h; sourceTree = "<group>"; };
+		6FFD22421D16293A003B2419 /* NewsCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NewsCell.m; path = Control/NewsCell.m; sourceTree = "<group>"; };
+		8AC205BBF3FF2EA2BC9234B6 /* Pods-广医校园通.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-广医校园通.release.xcconfig"; path = "Pods/Target Support Files/Pods-广医校园通/Pods-广医校园通.release.xcconfig"; sourceTree = "<group>"; };
+		A76B3ECD5118C6C7DCB7775C /* Pods-广医校园通.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-广医校园通.debug.xcconfig"; path = "Pods/Target Support Files/Pods-广医校园通/Pods-广医校园通.debug.xcconfig"; sourceTree = "<group>"; };
+		B6A4557D1AF768720981ED2E /* libPods-广医校园通.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-广医校园通.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				40450C18436A6A47CD966A9F /* libPods-广医校园通.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -98,6 +105,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		523D35F77D2456955EFFC8C0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B6A4557D1AF768720981ED2E /* libPods-广医校园通.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		6F5815321CFF178700967CD4 = {
 			isa = PBXGroup;
 			children = (
@@ -105,6 +120,8 @@
 				6F5815571CFF178800967CD4 /* 广医校园通Tests */,
 				6F5815621CFF178800967CD4 /* 广医校园通UITests */,
 				6F58153C1CFF178700967CD4 /* Products */,
+				E8ADE5F14941F1B55D3E9335 /* Pods */,
+				523D35F77D2456955EFFC8C0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -121,24 +138,12 @@
 		6F58153D1CFF178700967CD4 /* 广医校园通 */ = {
 			isa = PBXGroup;
 			children = (
-				6F5815471CFF178800967CD4 /* Main.storyboard */,
-				6F35AC371D00437E00E2D298 /* School.h */,
-				6F35AC381D00437E00E2D298 /* School.m */,
-				6F58157D1CFF2CD900967CD4 /* LoginView.storyboard */,
-				6F35AC3D1D004FF900E2D298 /* LoginViewController.h */,
-				6F35AC3E1D004FF900E2D298 /* LoginViewController.m */,
+				6FFD223C1D162486003B2419 /* Control */,
+				6FFD223B1D16246E003B2419 /* View */,
 				6F5815411CFF178800967CD4 /* AppDelegate.h */,
 				6F5815421CFF178800967CD4 /* AppDelegate.m */,
 				6F5815441CFF178800967CD4 /* ViewController.h */,
 				6F5815451CFF178800967CD4 /* ViewController.m */,
-				6F5815801CFF31DC00967CD4 /* MeViewController.h */,
-				6F5815811CFF31DC00967CD4 /* MeViewController.m */,
-				6F58157A1CFF208400967CD4 /* OnlineViewController.h */,
-				6F58157B1CFF208400967CD4 /* OnlineViewController.m */,
-				6F5815711CFF1EF700967CD4 /* NewsViewController.h */,
-				6F5815721CFF1EF700967CD4 /* NewsViewController.m */,
-				6F5815771CFF201800967CD4 /* SchoolViewController.h */,
-				6F5815781CFF201800967CD4 /* SchoolViewController.m */,
 				6F58154A1CFF178800967CD4 /* Assets.xcassets */,
 				6F58154C1CFF178800967CD4 /* LaunchScreen.storyboard */,
 				6F58154F1CFF178800967CD4 /* Info.plist */,
@@ -173,6 +178,44 @@
 			path = "广医校园通UITests";
 			sourceTree = "<group>";
 		};
+		6FFD223B1D16246E003B2419 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				6F5815471CFF178800967CD4 /* Main.storyboard */,
+				6F58157D1CFF2CD900967CD4 /* LoginView.storyboard */,
+				6FFD223F1D162803003B2419 /* NewsCell.xib */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		6FFD223C1D162486003B2419 /* Control */ = {
+			isa = PBXGroup;
+			children = (
+				6F35AC3D1D004FF900E2D298 /* LoginViewController.h */,
+				6F35AC3E1D004FF900E2D298 /* LoginViewController.m */,
+				6FFD22381D162383003B2419 /* RESideMenuControl.h */,
+				6FFD22391D162383003B2419 /* RESideMenuControl.m */,
+				6F5815801CFF31DC00967CD4 /* MeViewController.h */,
+				6F5815811CFF31DC00967CD4 /* MeViewController.m */,
+				6F5815711CFF1EF700967CD4 /* NewsViewController.h */,
+				6F5815721CFF1EF700967CD4 /* NewsViewController.m */,
+				6F5815771CFF201800967CD4 /* SchoolViewController.h */,
+				6F5815781CFF201800967CD4 /* SchoolViewController.m */,
+				6FFD22411D16293A003B2419 /* NewsCell.h */,
+				6FFD22421D16293A003B2419 /* NewsCell.m */,
+			);
+			name = Control;
+			sourceTree = "<group>";
+		};
+		E8ADE5F14941F1B55D3E9335 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A76B3ECD5118C6C7DCB7775C /* Pods-广医校园通.debug.xcconfig */,
+				8AC205BBF3FF2EA2BC9234B6 /* Pods-广医校园通.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -180,9 +223,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6F5815681CFF178800967CD4 /* Build configuration list for PBXNativeTarget "广医校园通" */;
 			buildPhases = (
+				0DC389F4B9091497853D665E /* 📦 Check Pods Manifest.lock */,
 				6F5815371CFF178700967CD4 /* Sources */,
 				6F5815381CFF178700967CD4 /* Frameworks */,
 				6F5815391CFF178700967CD4 /* Resources */,
+				E55C2711817CAAE4659F66D7 /* 📦 Embed Pods Frameworks */,
+				EF4E34E13D87BE785D8DBF8D /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -279,6 +325,7 @@
 			files = (
 				6F58154E1CFF178800967CD4 /* LaunchScreen.storyboard in Resources */,
 				6F58154B1CFF178800967CD4 /* Assets.xcassets in Resources */,
+				6FFD22401D162803003B2419 /* NewsCell.xib in Resources */,
 				6F5815491CFF178800967CD4 /* Main.storyboard in Resources */,
 				6F58157F1CFF2CD900967CD4 /* LoginView.storyboard in Resources */,
 			);
@@ -300,19 +347,67 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0DC389F4B9091497853D665E /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E55C2711817CAAE4659F66D7 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-广医校园通/Pods-广医校园通-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EF4E34E13D87BE785D8DBF8D /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-广医校园通/Pods-广医校园通-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		6F5815371CFF178700967CD4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				6F5815461CFF178800967CD4 /* ViewController.m in Sources */,
-				6F58157C1CFF208400967CD4 /* OnlineViewController.m in Sources */,
 				6F5815821CFF31DC00967CD4 /* MeViewController.m in Sources */,
+				6FFD22431D16293A003B2419 /* NewsCell.m in Sources */,
 				6F35AC3F1D004FF900E2D298 /* LoginViewController.m in Sources */,
-				6F35AC391D00437E00E2D298 /* School.m in Sources */,
 				6F5815431CFF178800967CD4 /* AppDelegate.m in Sources */,
 				6F5815401CFF178800967CD4 /* main.m in Sources */,
 				6F5815791CFF201800967CD4 /* SchoolViewController.m in Sources */,
+				6FFD223A1D162383003B2419 /* RESideMenuControl.m in Sources */,
 				6F5815731CFF1EF700967CD4 /* NewsViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -460,6 +555,7 @@
 		};
 		6F5815691CFF178800967CD4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A76B3ECD5118C6C7DCB7775C /* Pods-广医校园通.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -472,6 +568,7 @@
 		};
 		6F58156A1CFF178800967CD4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8AC205BBF3FF2EA2BC9234B6 /* Pods-广医校园通.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
