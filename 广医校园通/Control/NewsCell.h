@@ -9,5 +9,7 @@
 #import <UIKit/UIKit.h>
 
 @interface NewsCell : UITableViewCell
-
+@property (weak, nonatomic) IBOutlet UIImageView *CellImage;
+@property (weak, nonatomic) IBOutlet UILabel *CellTitle;
+@property (weak, nonatomic) IBOutlet UILabel *CellPrice;
 @end

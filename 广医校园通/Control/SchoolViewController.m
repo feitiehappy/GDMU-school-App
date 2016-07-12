@@ -22,7 +22,10 @@
 }
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
+    
     UITableViewCell *cell=[[UITableViewCell alloc]initWithStyle:UITableViewCellStyleDefault reuseIdentifier:nil];
+    
+    
     cell.textLabel.text=self.Gracy[indexPath.row];
     cell.imageView.image=[UIImage imageNamed:self.Picture[indexPath.row]];
     return cell;
@@ -42,13 +45,13 @@
 }
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    if (indexPath.row==1) {
+//    if (indexPath.row==1) {
         UIStoryboard *secondStoryBoard=[UIStoryboard storyboardWithName:@"LoginView" bundle:nil];
-        UIViewController *test=[secondStoryBoard instantiateViewControllerWithIdentifier:@"LoginView"];
-        [self.navigationController pushViewController:test animated:YES];
+        UIViewController *Login=[secondStoryBoard instantiateViewControllerWithIdentifier:@"LoginView"];
+        [self.navigationController pushViewController:Login animated:YES];
         
         
-    }
+//    }
     
     
 }
