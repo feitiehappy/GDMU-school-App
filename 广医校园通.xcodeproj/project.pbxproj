@@ -17,10 +17,14 @@
 		6F58154E1CFF178800967CD4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F58154C1CFF178800967CD4 /* LaunchScreen.storyboard */; };
 		6F5815591CFF178800967CD4 /* _____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F5815581CFF178800967CD4 /* _____Tests.m */; };
 		6F5815641CFF178800967CD4 /* _____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F5815631CFF178800967CD4 /* _____UITests.m */; };
-		6F5815731CFF1EF700967CD4 /* NewsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F5815721CFF1EF700967CD4 /* NewsViewController.m */; };
 		6F5815791CFF201800967CD4 /* SchoolViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F5815781CFF201800967CD4 /* SchoolViewController.m */; };
 		6F58157F1CFF2CD900967CD4 /* LoginView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F58157D1CFF2CD900967CD4 /* LoginView.storyboard */; };
 		6F5815821CFF31DC00967CD4 /* MeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F5815811CFF31DC00967CD4 /* MeViewController.m */; };
+		6F955C311D34DFBB005BA196 /* NewsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F955C301D34DFBB005BA196 /* NewsViewController.m */; };
+		6F955C351D34E0C5005BA196 /* NewsInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F955C341D34E0C5005BA196 /* NewsInterface.storyboard */; };
+		6FA1EB4F1D339D560058243F /* CrossScrollCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6FA1EB4E1D339D560058243F /* CrossScrollCell.xib */; };
+		6FA1EB521D339DBA0058243F /* CrossScrollCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FA1EB511D339DBA0058243F /* CrossScrollCell.m */; };
+		6FA1EB571D34CFE70058243F /* AppleNewsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FA1EB561D34CFE70058243F /* AppleNewsViewController.m */; };
 		6FFD223A1D162383003B2419 /* RESideMenuControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FFD22391D162383003B2419 /* RESideMenuControl.m */; };
 		6FFD22401D162803003B2419 /* NewsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6FFD223F1D162803003B2419 /* NewsCell.xib */; };
 		6FFD22431D16293A003B2419 /* NewsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FFD22421D16293A003B2419 /* NewsCell.m */; };
@@ -62,13 +66,19 @@
 		6F58155F1CFF178800967CD4 /* 广医校园通UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "广医校园通UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6F5815631CFF178800967CD4 /* _____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_____UITests.m"; sourceTree = "<group>"; };
 		6F5815651CFF178800967CD4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6F5815711CFF1EF700967CD4 /* NewsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NewsViewController.h; path = Control/NewsViewController.h; sourceTree = "<group>"; };
-		6F5815721CFF1EF700967CD4 /* NewsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NewsViewController.m; path = Control/NewsViewController.m; sourceTree = "<group>"; };
 		6F5815771CFF201800967CD4 /* SchoolViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SchoolViewController.h; path = Control/SchoolViewController.h; sourceTree = "<group>"; };
 		6F5815781CFF201800967CD4 /* SchoolViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SchoolViewController.m; path = Control/SchoolViewController.m; sourceTree = "<group>"; };
 		6F58157E1CFF2CD900967CD4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LoginView.storyboard; sourceTree = "<group>"; };
 		6F5815801CFF31DC00967CD4 /* MeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MeViewController.h; path = Control/MeViewController.h; sourceTree = "<group>"; };
 		6F5815811CFF31DC00967CD4 /* MeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MeViewController.m; path = Control/MeViewController.m; sourceTree = "<group>"; };
+		6F955C2F1D34DFBB005BA196 /* NewsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NewsViewController.h; path = Control/NewsViewController.h; sourceTree = "<group>"; };
+		6F955C301D34DFBB005BA196 /* NewsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NewsViewController.m; path = Control/NewsViewController.m; sourceTree = "<group>"; };
+		6F955C341D34E0C5005BA196 /* NewsInterface.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = NewsInterface.storyboard; path = View/NewsInterface.storyboard; sourceTree = "<group>"; };
+		6FA1EB4E1D339D560058243F /* CrossScrollCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = CrossScrollCell.xib; path = View/CrossScrollCell.xib; sourceTree = "<group>"; };
+		6FA1EB501D339DBA0058243F /* CrossScrollCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CrossScrollCell.h; path = Control/CrossScrollCell.h; sourceTree = "<group>"; };
+		6FA1EB511D339DBA0058243F /* CrossScrollCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CrossScrollCell.m; path = Control/CrossScrollCell.m; sourceTree = "<group>"; };
+		6FA1EB551D34CFE70058243F /* AppleNewsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppleNewsViewController.h; path = Control/AppleNewsViewController.h; sourceTree = "<group>"; };
+		6FA1EB561D34CFE70058243F /* AppleNewsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppleNewsViewController.m; path = Control/AppleNewsViewController.m; sourceTree = "<group>"; };
 		6FFD22381D162383003B2419 /* RESideMenuControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RESideMenuControl.h; path = Control/RESideMenuControl.h; sourceTree = "<group>"; };
 		6FFD22391D162383003B2419 /* RESideMenuControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RESideMenuControl.m; path = Control/RESideMenuControl.m; sourceTree = "<group>"; };
 		6FFD223F1D162803003B2419 /* NewsCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = NewsCell.xib; path = View/NewsCell.xib; sourceTree = "<group>"; };
@@ -184,6 +194,8 @@
 				6F5815471CFF178800967CD4 /* Main.storyboard */,
 				6F58157D1CFF2CD900967CD4 /* LoginView.storyboard */,
 				6FFD223F1D162803003B2419 /* NewsCell.xib */,
+				6FA1EB4E1D339D560058243F /* CrossScrollCell.xib */,
+				6F955C341D34E0C5005BA196 /* NewsInterface.storyboard */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -191,18 +203,22 @@
 		6FFD223C1D162486003B2419 /* Control */ = {
 			isa = PBXGroup;
 			children = (
+				6F955C2F1D34DFBB005BA196 /* NewsViewController.h */,
+				6F955C301D34DFBB005BA196 /* NewsViewController.m */,
 				6F35AC3D1D004FF900E2D298 /* LoginViewController.h */,
 				6F35AC3E1D004FF900E2D298 /* LoginViewController.m */,
 				6FFD22381D162383003B2419 /* RESideMenuControl.h */,
+				6FA1EB551D34CFE70058243F /* AppleNewsViewController.h */,
+				6FA1EB561D34CFE70058243F /* AppleNewsViewController.m */,
 				6FFD22391D162383003B2419 /* RESideMenuControl.m */,
 				6F5815801CFF31DC00967CD4 /* MeViewController.h */,
 				6F5815811CFF31DC00967CD4 /* MeViewController.m */,
-				6F5815711CFF1EF700967CD4 /* NewsViewController.h */,
-				6F5815721CFF1EF700967CD4 /* NewsViewController.m */,
 				6F5815771CFF201800967CD4 /* SchoolViewController.h */,
 				6F5815781CFF201800967CD4 /* SchoolViewController.m */,
 				6FFD22411D16293A003B2419 /* NewsCell.h */,
 				6FFD22421D16293A003B2419 /* NewsCell.m */,
+				6FA1EB501D339DBA0058243F /* CrossScrollCell.h */,
+				6FA1EB511D339DBA0058243F /* CrossScrollCell.m */,
 			);
 			name = Control;
 			sourceTree = "<group>";
@@ -286,7 +302,7 @@
 				TargetAttributes = {
 					6F58153A1CFF178700967CD4 = {
 						CreatedOnToolsVersion = 7.3;
-						DevelopmentTeam = S787C3GA7W;
+						DevelopmentTeam = S43V4G9QY6;
 					};
 					6F5815531CFF178800967CD4 = {
 						CreatedOnToolsVersion = 7.3;
@@ -327,7 +343,9 @@
 				6F58154B1CFF178800967CD4 /* Assets.xcassets in Resources */,
 				6FFD22401D162803003B2419 /* NewsCell.xib in Resources */,
 				6F5815491CFF178800967CD4 /* Main.storyboard in Resources */,
+				6F955C351D34E0C5005BA196 /* NewsInterface.storyboard in Resources */,
 				6F58157F1CFF2CD900967CD4 /* LoginView.storyboard in Resources */,
+				6FA1EB4F1D339D560058243F /* CrossScrollCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -405,10 +423,12 @@
 				6FFD22431D16293A003B2419 /* NewsCell.m in Sources */,
 				6F35AC3F1D004FF900E2D298 /* LoginViewController.m in Sources */,
 				6F5815431CFF178800967CD4 /* AppDelegate.m in Sources */,
+				6F955C311D34DFBB005BA196 /* NewsViewController.m in Sources */,
 				6F5815401CFF178800967CD4 /* main.m in Sources */,
 				6F5815791CFF201800967CD4 /* SchoolViewController.m in Sources */,
+				6FA1EB521D339DBA0058243F /* CrossScrollCell.m in Sources */,
 				6FFD223A1D162383003B2419 /* RESideMenuControl.m in Sources */,
-				6F5815731CFF1EF700967CD4 /* NewsViewController.m in Sources */,
+				6FA1EB571D34CFE70058243F /* AppleNewsViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -559,10 +579,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "广医校园通/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "-63.com-feitiehappy.-----";
+				PRODUCT_BUNDLE_IDENTIFIER = "-63.com-feitiehappy.GDMU-Helper";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -572,10 +595,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "广医校园通/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "-63.com-feitiehappy.-----";
+				PRODUCT_BUNDLE_IDENTIFIER = "-63.com-feitiehappy.GDMU-Helper";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
