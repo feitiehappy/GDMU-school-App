@@ -9,6 +9,7 @@
 #import "NewsCell.h"
 
 @interface NewsCell()
+@property (weak, nonatomic) IBOutlet UILabel *Title;
 
 
 @end
@@ -16,7 +17,7 @@
 
 - (void)awakeFromNib {
     [super awakeFromNib];
-    
+//    _Title.frame=self.frame;
     
     
     // Initialization code

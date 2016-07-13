@@ -7,22 +7,23 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
-        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="197" id="Gdo-qp-xbB" customClass="CrossScrollCell">
-            <rect key="frame" x="0.0" y="0.0" width="320" height="224"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="209" id="Gdo-qp-xbB" customClass="CrossScrollCell">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="236"/>
             <autoresizingMask key="autoresizingMask"/>
             <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Gdo-qp-xbB" id="xH5-3P-Fef">
-                <rect key="frame" x="0.0" y="0.0" width="320" height="223.5"/>
+                <rect key="frame" x="0.0" y="0.0" width="375" height="235.5"/>
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
-                    <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="y01-xL-Z78">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="223.5"/>
-                    </scrollView>
+                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ewg-55-Ezl" customClass="XRCarouselView">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="235.5"/>
+                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
                 </subviews>
             </tableViewCellContentView>
             <connections>
-                <outlet property="ScrollViewHorizenal" destination="y01-xL-Z78" id="OFE-Qe-tyu"/>
+                <outlet property="XRView" destination="ewg-55-Ezl" id="eF1-am-Ubk"/>
             </connections>
-            <point key="canvasLocation" x="273" y="219"/>
+            <point key="canvasLocation" x="272.5" y="225"/>
         </tableViewCell>
     </objects>
 </document>
