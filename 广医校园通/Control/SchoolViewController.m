@@ -45,13 +45,18 @@
 }
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
-//    if (indexPath.row==1) {
+    if (indexPath.row==1) {
         UIStoryboard *secondStoryBoard=[UIStoryboard storyboardWithName:@"LoginView" bundle:nil];
         UIViewController *Login=[secondStoryBoard instantiateViewControllerWithIdentifier:@"LoginView"];
         [self.navigationController pushViewController:Login animated:YES];
         
         
-//    }
+    }
+    if (indexPath.row==0) {
+        UIStoryboard *Schedule=[UIStoryboard storyboardWithName:@"Main" bundle:nil];
+        UIViewController *ClassSchedule=[Schedule instantiateViewControllerWithIdentifier:@"ClassSchedule"];
+        [self.navigationController pushViewController:ClassSchedule animated:YES];
+    }
     
     
 }

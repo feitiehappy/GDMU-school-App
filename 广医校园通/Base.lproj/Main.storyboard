@@ -106,6 +106,33 @@
             </objects>
             <point key="canvasLocation" x="-871.5" y="-920.5"/>
         </scene>
+        <!--课表-->
+        <scene sceneID="UNu-I8-5oP">
+            <objects>
+                <viewController storyboardIdentifier="ClassSchedule" title="课表" useStoryboardIdentifierAsRestorationIdentifier="YES" id="oCp-Xg-j6Q" customClass="ClassScheduleViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="CGu-5i-SVb"/>
+                        <viewControllerLayoutGuide type="bottom" id="Etx-la-YZY"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="zDX-TA-VZ7">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Title" id="JMD-Hi-R87">
+                        <barButtonItem key="rightBarButtonItem" title="切换" id="uCk-GF-EUH" userLabel="Replay">
+                            <color key="tintColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                            <connections>
+                                <action selector="changeMode:" destination="oCp-Xg-j6Q" id="OEm-v1-jR3"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="RTG-2f-DMc" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="690.5" y="1234.5"/>
+        </scene>
         <!--View Controller-->
         <scene sceneID="1pO-KH-6pn">
             <objects>
