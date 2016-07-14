@@ -9,7 +9,7 @@
 #import "NewsCell.h"
 
 @interface NewsCell()
-@property (weak, nonatomic) IBOutlet UILabel *Title;
+
 
 
 @end

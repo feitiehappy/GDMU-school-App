@@ -62,6 +62,7 @@
 }
 - (void)viewDidLoad {
     [super viewDidLoad];
+    self.TableView.separatorColor=[UIColor clearColor];
     self.TableView.rowHeight=80;
     
     

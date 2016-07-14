@@ -25,7 +25,8 @@
     [super viewDidLoad];
     self.title=@"校园新闻";
     [self Network];
-    _TableView.backgroundColor=[UIColor redColor];
+    //_TableView.backgroundColor=[UIColor redColor];
+    
     [self setupRefresh];
     [self.TableView reloadData];
     
@@ -91,14 +92,16 @@
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    static NSString *ID=@"NewsBody";
+    
     
     if (indexPath.row==0) {
+        static NSString *ID=@"ScrollCell";
         CrossScrollCell *cell=[tableView dequeueReusableCellWithIdentifier:ID];
         cell= [[[NSBundle mainBundle]loadNibNamed:@"CrossScrollCell" owner:nil options:nil]lastObject];
         return cell;
     }
     if (indexPath.row!=0) {
+        static NSString *ID=@"NewsBody";
         NSDictionary *diction= self.array[indexPath.row-1];
         
         
@@ -106,6 +109,9 @@
         NSString *title=[diction objectForKey:@"title"];
         NSString *kind=[diction objectForKey:@"kind"];
         NewsCell *cell=[tableView dequeueReusableCellWithIdentifier:ID];
+        if (cell==nil) {
+            cell=[[NewsCell alloc]initWithStyle:UITableViewCellStyleSubtitle reuseIdentifier:ID];
+        }
         cell= [[[NSBundle mainBundle]loadNibNamed:@"NewsCell" owner:nil options:nil]lastObject];
         cell.CellTitle.text=title;
         //NSLog(@"第一");

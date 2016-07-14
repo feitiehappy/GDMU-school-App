@@ -11,6 +11,7 @@
 @interface MeViewController ()<UITableViewDelegate,UITableViewDataSource>
 - (IBAction)Login:(UIButton *)sender;
 @property (nonatomic,copy) NSArray *Gracy;
+@property (weak, nonatomic) IBOutlet UITableView *TableView;
 @property(nonatomic,copy)NSArray *picture;
 @end
 
@@ -47,8 +48,9 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    self.TableView.separatorColor=[UIColor clearColor];
+//    self.TableView.rowHeight=45;
     
-    // Do any additional setup after loading the view.
 }
 
 - (void)didReceiveMemoryWarning {

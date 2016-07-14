@@ -14,15 +14,15 @@
                         <viewControllerLayoutGuide type="bottom" id="Wjk-yO-I7b"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="xLc-b9-cn1">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Y75-lv-m4G" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="426" y="288"/>
+            <point key="canvasLocation" x="267.5" y="226.5"/>
         </scene>
     </scenes>
 </document>

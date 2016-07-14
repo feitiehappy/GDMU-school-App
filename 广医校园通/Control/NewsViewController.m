@@ -17,22 +17,19 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
+    UIScrollView *Scroll=[[UIScrollView alloc]initWithFrame:CGRectMake(0, 0, self.view.frame.size.width, self.view.frame.size.height-26)];
+    Scroll.contentSize=CGSizeMake(0, self.view.frame.size.height-100);
+    //Scroll.backgroundColor=[UIColor redColor];
+    [self.view addSubview:Scroll];
     NSMutableAttributedString *text = [NSMutableAttributedString new];
-    UIFont *font = [UIFont systemFontOfSize:35];
+    UIFont *font = [UIFont systemFontOfSize:2];
     
     {
         
-//        NSMutableAttributedString *title= ;
-//        [text appendAttributedString:[[NSAttributedString alloc] initWithString:title attributes:nil]];
-//        
+
         NSMutableAttributedString *one = [[NSMutableAttributedString alloc] initWithString:_Senttitle];
         one.yy_font = [UIFont boldSystemFontOfSize:30];
-//        one.yy_color = [UIColor whiteColor];
-//        YYTextShadow *shadow = [YYTextShadow new];
-//        shadow.color = [UIColor colorWithWhite:0.000 alpha:0.490];
-//        shadow.offset = CGSizeMake(0, 1);
-//        shadow.radius = 5;
-//        one.yy_textShadow = shadow;
+
         [text appendAttributedString:one];
         
         
@@ -47,23 +44,30 @@
     }
     {
         NSString *textinter = self.Text;
-        [text appendAttributedString:[[NSAttributedString alloc] initWithString:textinter attributes:nil]];
+        NSMutableAttributedString *two = [[NSMutableAttributedString alloc] initWithString:textinter];
+        two.yy_font= [UIFont boldSystemFontOfSize:14];
+        [text appendAttributedString:two];
         
         
     }
-    //    _TextView.text=text;
+    
+    
+    CGFloat width=self.view.frame.size.width;
+    CGFloat height=self.view.frame.size.height-50;
     _label = [YYLabel new];
-    _label.frame=CGRectMake(9, 80, 355, 500);
-    //_label.backgroundColor=[UIColor redColor];
+    
+    _label.frame=CGRectMake(10, 0, width-15, height);
+    
     _label.userInteractionEnabled = YES;
     _label.numberOfLines = 0;
-    _label.textVerticalAlignment = YYTextVerticalAlignmentCenter;
-    //_label.size = CGSizeMake(260, 260);
-    //_label.center = CGPointMake(self.view.width / 2, self.view.height / 2);
-    //_label.attributedText = text;
-    //[self addSeeMoreButton];
+    //_label.textVerticalAlignment = YYTextVerticalAlignmentCenter;
+    
     _label.attributedText = text;
-    [self.view addSubview:_label];
+    
+    
+    //_label.backgroundColor=[UIColor grayColor];
+    [Scroll addSubview:_label];
+    //[self.view addSubview:_label];
     // Do any additional setup after loading the view.
 }
 
@@ -72,14 +76,6 @@
     // Dispose of any resources that can be recreated.
 }
 
-/*
-#pragma mark - Navigation
 
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
-}
-*/
 
 @end

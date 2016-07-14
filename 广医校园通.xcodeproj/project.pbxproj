@@ -20,6 +20,7 @@
 		6F5815791CFF201800967CD4 /* SchoolViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F5815781CFF201800967CD4 /* SchoolViewController.m */; };
 		6F58157F1CFF2CD900967CD4 /* LoginView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F58157D1CFF2CD900967CD4 /* LoginView.storyboard */; };
 		6F5815821CFF31DC00967CD4 /* MeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F5815811CFF31DC00967CD4 /* MeViewController.m */; };
+		6F7F75071D37A9D700F17E68 /* NewsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6F7F75061D37A9D700F17E68 /* NewsCell.xib */; };
 		6F955C311D34DFBB005BA196 /* NewsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F955C301D34DFBB005BA196 /* NewsViewController.m */; };
 		6F955C351D34E0C5005BA196 /* NewsInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F955C341D34E0C5005BA196 /* NewsInterface.storyboard */; };
 		6FA1EB4F1D339D560058243F /* CrossScrollCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6FA1EB4E1D339D560058243F /* CrossScrollCell.xib */; };
@@ -52,7 +53,6 @@
 		6FA239F31D366F40001C292E /* OldClassTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FA239EB1D366F40001C292E /* OldClassTableView.m */; };
 		6FA239F41D366F40001C292E /* WeekViewLable.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FA239ED1D366F40001C292E /* WeekViewLable.m */; };
 		6FFD223A1D162383003B2419 /* RESideMenuControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FFD22391D162383003B2419 /* RESideMenuControl.m */; };
-		6FFD22401D162803003B2419 /* NewsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6FFD223F1D162803003B2419 /* NewsCell.xib */; };
 		6FFD22431D16293A003B2419 /* NewsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FFD22421D16293A003B2419 /* NewsCell.m */; };
 /* End PBXBuildFile section */
 
@@ -97,6 +97,7 @@
 		6F58157E1CFF2CD900967CD4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LoginView.storyboard; sourceTree = "<group>"; };
 		6F5815801CFF31DC00967CD4 /* MeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MeViewController.h; path = Control/MeViewController.h; sourceTree = "<group>"; };
 		6F5815811CFF31DC00967CD4 /* MeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MeViewController.m; path = Control/MeViewController.m; sourceTree = "<group>"; };
+		6F7F75061D37A9D700F17E68 /* NewsCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = NewsCell.xib; path = "广医校园通/View/NewsCell.xib"; sourceTree = SOURCE_ROOT; };
 		6F955C2F1D34DFBB005BA196 /* NewsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NewsViewController.h; path = Control/NewsViewController.h; sourceTree = "<group>"; };
 		6F955C301D34DFBB005BA196 /* NewsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NewsViewController.m; path = Control/NewsViewController.m; sourceTree = "<group>"; };
 		6F955C341D34E0C5005BA196 /* NewsInterface.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = NewsInterface.storyboard; path = View/NewsInterface.storyboard; sourceTree = "<group>"; };
@@ -156,7 +157,6 @@
 		6FA239ED1D366F40001C292E /* WeekViewLable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WeekViewLable.m; sourceTree = "<group>"; };
 		6FFD22381D162383003B2419 /* RESideMenuControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RESideMenuControl.h; path = Control/RESideMenuControl.h; sourceTree = "<group>"; };
 		6FFD22391D162383003B2419 /* RESideMenuControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RESideMenuControl.m; path = Control/RESideMenuControl.m; sourceTree = "<group>"; };
-		6FFD223F1D162803003B2419 /* NewsCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = NewsCell.xib; path = View/NewsCell.xib; sourceTree = "<group>"; };
 		6FFD22411D16293A003B2419 /* NewsCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NewsCell.h; path = Control/NewsCell.h; sourceTree = "<group>"; };
 		6FFD22421D16293A003B2419 /* NewsCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NewsCell.m; path = Control/NewsCell.m; sourceTree = "<group>"; };
 		8AC205BBF3FF2EA2BC9234B6 /* Pods-广医校园通.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-广医校园通.release.xcconfig"; path = "Pods/Target Support Files/Pods-广医校园通/Pods-广医校园通.release.xcconfig"; sourceTree = "<group>"; };
@@ -370,8 +370,8 @@
 			children = (
 				6FA239E21D366F40001C292E /* CopyView */,
 				6F5815471CFF178800967CD4 /* Main.storyboard */,
+				6F7F75061D37A9D700F17E68 /* NewsCell.xib */,
 				6F58157D1CFF2CD900967CD4 /* LoginView.storyboard */,
-				6FFD223F1D162803003B2419 /* NewsCell.xib */,
 				6FA1EB4E1D339D560058243F /* CrossScrollCell.xib */,
 				6F955C341D34E0C5005BA196 /* NewsInterface.storyboard */,
 				6F58154C1CFF178800967CD4 /* LaunchScreen.storyboard */,
@@ -523,13 +523,13 @@
 				6F58154E1CFF178800967CD4 /* LaunchScreen.storyboard in Resources */,
 				6FA239CA1D366AAE001C292E /* MBProgressHUD.bundle in Resources */,
 				6F58154B1CFF178800967CD4 /* Assets.xcassets in Resources */,
-				6FFD22401D162803003B2419 /* NewsCell.xib in Resources */,
 				6FA239F21D366F40001C292E /* OldClassTable.xib in Resources */,
 				6F5815491CFF178800967CD4 /* Main.storyboard in Resources */,
 				6F955C351D34E0C5005BA196 /* NewsInterface.storyboard in Resources */,
 				6F58157F1CFF2CD900967CD4 /* LoginView.storyboard in Resources */,
 				6FA239EF1D366F40001C292E /* DayClassTableViewCell.xib in Resources */,
 				6FA239E11D366DC5001C292E /* courses.plist in Resources */,
+				6F7F75071D37A9D700F17E68 /* NewsCell.xib in Resources */,
 				6FA1EB4F1D339D560058243F /* CrossScrollCell.xib in Resources */,
 				6FA239CC1D366AAE001C292E /* MJRefresh.bundle in Resources */,
 				6FA239F11D366F40001C292E /* NightClassTableViewCell.xib in Resources */,
